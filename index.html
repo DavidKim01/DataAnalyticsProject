@@ -36,7 +36,11 @@
             <h2 class="title"> Business Problem </h2>
         </div>
         <div class="row ">
-            <div> Our goal here is to use our data to predict when and where accident happen most ofthen.</div>
+            <div>The goal of this project is to minimize the injuries and deaths occurring due to vehicle collisions in
+                New York City. The business problem here is to reduce the injuries and deaths due to vehicle collisions.
+                We reduce this business problem into data mining problem by hypothesizing that the population of an area
+                has a major say in determining the said injuries and deaths. We measure the impact population has on
+                vehicle related deaths and injuries and extract a predictive value out of it.</div>
         </div>
 
 
@@ -72,7 +76,7 @@
         </div>
 
         <div class="row">
-            <h2 class="title"><br><br>Linear Regression Model.</h2>
+            <h2 class="title"><br>Linear Regression Model.</h2>
         </div>
 
         <div class="row"><br>
@@ -85,15 +89,16 @@
         </div>
 
 
-        <div class="row"><br>
 
 
-        </div>
         <div class="row">
-            <div class="col"> <br>
-                <h2 class="title"> Dependent Variables </h2>
-            </div>
-
+            <h2 class="title"><br><br> Dependent Variables </h2>
+        </div>
+        <div class="row"><br>
+            Out of all the fields, zip code is chosen as the population density of the zip codes are hypothesized to
+            have the most predictive value. However, Population is not field in our database. So, we use another
+            database that equates zip codes with their population. For this, we use Demographic Statistics by Zip Code
+            database found in NYC Open Data website.
         </div>
 
         <div class="row">
@@ -107,8 +112,19 @@
             </div>
         </div>
 
-        
+        <div class="row">
+            <h2 class="title"><br><br>Modelling</h2>
 
+        </div>
+        <div class="row">
+            The form of data mining used is supervised data mining. Our target field is labelled, and we know exactly
+            what outcome we are trying to achieve. We use population of an area to predict the number of
+            collision-related injuries and deaths in that area. Hence, we are utilizing predictive modelling.<br><br>
+            In the project, we use linear regression model for predictive modelling. For this, we use a sum of the
+            number of injuries and the number of deaths by zip codes as the dependent variable (y), and we use
+            population of the zip codes as the independent variable (x).
+
+        </div>
 
 
 
