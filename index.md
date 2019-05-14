@@ -178,7 +178,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
         </div>
 
         <div class="row">
-            <h2 class="title"><br><br>Modelling</h2>
+            <h2 class="title"><br><br>Modelling With Linear Regression</h2>
 
         </div>
         <div class="row">
@@ -190,7 +190,14 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
             population of the zip codes as the independent variable (x).
 
         </div
+	<div class="row">
+            <h2 class="title"><br><br>Modelling With Tree Classification Instead</h2>
 
+        </div>
+        <div class="row">
+            We are using a classification tree to build our model. We will first divide the time into rush hour and midnight ranges to figure out which time frame has the most collisions. And then we are going to divide the date into holiday and non-holiday categories. Last we going to divide by the contributing factors. We going to calculate information gain (IG) and probability to determine which factor has the higher correlation.
+
+        </div
         <br>
         <br>
         <br>
@@ -198,7 +205,9 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
         <br>
         <br>
         <br>
-	<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 11pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">PASSENGER VEHICLE, TIME, DATE, Holiday/not holiday, Driver Inattention/Distraction</span></p>
+	<p style="line-height: 1.56; margin-top: 10pt; margin-bottom: 0pt; text-indent: 36pt; text-align: justify;"><span style="font-size: 11pt; font-family: 'Proxima Nova',sans-serif; color: #353744; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">We are using a classification tree to build our model. We will first divide the time into rush hour and midnight ranges to figure out which time frame has the </span><span style="font-size: 11pt; font-family: 'Proxima Nova',sans-serif; color: #353744; background-color: #ffff00; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">most </span><span style="font-size: 11pt; font-family: 'Proxima Nova',sans-serif; color: #353744; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">collisions. And then we are going to divide the date into holiday and non-holiday categories. Last we going to divide by the contributing factors. We going to calculate information gain (IG) and probability to determine which factor has the higher correlation.</span></p>
+<p style="line-height: 1.56; margin-top: 10pt; margin-bottom: 0pt; text-align: justify;"><span style="font-size: 11pt; font-family: 'Proxima Nova',sans-serif; color: #353744; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Classification Tree Calculations</span></p>
+<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 11pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">PASSENGER VEHICLE, TIME, DATE, Holiday/not holiday, Driver Inattention/Distraction</span></p>
 <p>&nbsp;</p>
 <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 11pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">First we need to find the entropy/information gain of each attribute </span></p>
 <ol style="margin-top: 0pt; margin-bottom: 0pt;">
